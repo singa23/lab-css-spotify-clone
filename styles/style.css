@@ -17,6 +17,7 @@ header{
 }
 #logospotify{
     width: 140px;
+    height:40px;
    
 }
 img{
@@ -75,17 +76,39 @@ section h3{
 section p{
     font-size: 150%;
 }
+.titrevert{
+    color: green;
+}
 .lasttitle{
     text-decoration: underline;
     color: white;
+    font-size: 210%;
 }
 .lastcontainer{
     background-color: green;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
+    margin-left: auto;
+    height:1000px;
+    width: 2500px;
+    
 }
 #icons{
-    width:150px;
+    width:200px;
+}
+
+.containerleft{
+    text-align: center;
+    height: 1000px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+#app{
+    width:500px;
+    
 }
